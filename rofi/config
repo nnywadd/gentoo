@@ -1,12 +1,11 @@
-
 ! ------------------------------------------------------------------------------
 ! Color theme
 ! ------------------------------------------------------------------------------
 rofi.color-enabled: true
-rofi.color-window: #aa001326, #aa008400, #aa008400
-rofi.color-normal: #aa001326, #aa20d9df, #aa001326, #aa20d9df, #aa001326
-rofi.color-active: #aa001326, #ffffff, #aa001326, #ffffff, #aa001326
-rofi.color-urgent: #aa001326, #dc322f, #aa001326, #dc322f, #aa001326
+rofi.color-window: #aa101011, #aa20d9df, #aa20d9df
+rofi.color-normal: #aa101011, #aa20d9df, #aa101011, #aa20d9df, #aa101011
+rofi.color-active: #aa101011, #ffffff, #aa101011, #ffffff, #aa101011
+rofi.color-urgent: #aa101011, #aadc322f, #aa101011, #aadc322f, #aa101011
 
 ! ------------------------------------------------------------------------------
 ! Font
@@ -21,4 +20,7 @@ rofi.sidebar-mode:                   true
 ! ------------------------------------------------------------------------------
 ! Separator style
 ! ------------------------------------------------------------------------------
-rofi.separator-style:                solid
+rofi.separator-style:                none
+!_______________________________________________________________________________
+! Fake transparency
+rofi.fake-transparency:              true
