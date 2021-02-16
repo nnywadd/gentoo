@@ -1,3 +1,4 @@
+net-wireless/bluez systemd extra-tools depracated
 dev-python/numpy lapack
 1net-wireless/aircrack-ng airdrop-ng airgraph-ng netlink
 dev-ruby/minitest ruby_targets_ruby25
