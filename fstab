@@ -1,0 +1,17 @@
+# <fs>			<mountpoint>	<type>		<opts>		<dump/pass>
+
+# NOTE: If your BOOT partition is ReiserFS, add the notail option to opts.
+#
+# NOTE: Even though we list ext4 as the type here, it will work with ext2/ext3
+#       filesystems.  This just tells the kernel to use the ext4 driver.
+#
+# NOTE: You can use full paths to devices like /dev/sda3, but it is often
+#       more reliable to use filesystem labels or UUIDs. See your filesystem
+#       documentation for details on setting a label. To obtain the UUID, use
+#       the blkid(8) command.
+
+/dev/sda1		/boot/efi		vfat		rw,noauto,noatime	1 2
+/dev/sda2               none            swap            sw              0 0
+/dev/sda4		/		ext4		noatime		0 1
+/dev/sda5               /home           ext4            noatime         0 1
+#/dev/cdrom		/mnt/cdrom	auto		noauto,ro	0 0
