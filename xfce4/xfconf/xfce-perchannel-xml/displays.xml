@@ -7,7 +7,7 @@
       <property name="Active" type="bool" value="true"/>
       <property name="EDID" type="string" value="32be7110db148fcf6426a64e4a368e3fc4a71b0c"/>
       <property name="Resolution" type="string" value="1366x768"/>
-      <property name="RefreshRate" type="double" value="60.045948"/>
+      <property name="RefreshRate" type="double" value="60.045948000000003"/>
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
       <property name="Primary" type="bool" value="true"/>
@@ -16,11 +16,11 @@
         <property name="Y" type="int" value="0"/>
       </property>
     </property>
-    <property name="HDMI-1" type="string" value="CSL 32&quot;">
+    <property name="HDMI-1" type="string" value="BBY 39&quot;">
       <property name="Active" type="bool" value="true"/>
-      <property name="EDID" type="string" value="7a041664f3b7ed9b796fb5e6ce8b4c61e532a0a0"/>
-      <property name="Resolution" type="string" value="1024x768"/>
-      <property name="RefreshRate" type="double" value="60.003840"/>
+      <property name="EDID" type="string" value="052a3bcf31c8b539ec89e4ba83e9500b79ec813a"/>
+      <property name="Resolution" type="string" value="1680x1050"/>
+      <property name="RefreshRate" type="double" value="59.954250000000002"/>
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
       <property name="Primary" type="bool" value="false"/>
@@ -28,18 +28,26 @@
         <property name="X" type="int" value="0"/>
         <property name="Y" type="int" value="0"/>
       </property>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1"/>
+        <property name="Y" type="double" value="1"/>
+      </property>
     </property>
     <property name="HDMI-A-0" type="string" value="VIZIO, Inc 24&quot;">
       <property name="Active" type="bool" value="true"/>
       <property name="EDID" type="string" value="833b7fcb702312c03428ad210584544e4b79bbd5"/>
       <property name="Resolution" type="string" value="1920x1080"/>
-      <property name="RefreshRate" type="double" value="60.000000"/>
+      <property name="RefreshRate" type="double" value="60"/>
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
       <property name="Primary" type="bool" value="false"/>
       <property name="Position" type="empty">
         <property name="X" type="int" value="0"/>
         <property name="Y" type="int" value="0"/>
+      </property>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1"/>
+        <property name="Y" type="double" value="1"/>
       </property>
     </property>
   </property>
@@ -48,7 +56,7 @@
       <property name="Active" type="bool" value="true"/>
       <property name="EDID" type="string" value="32be7110db148fcf6426a64e4a368e3fc4a71b0c"/>
       <property name="Resolution" type="string" value="1366x768"/>
-      <property name="RefreshRate" type="double" value="60.045948"/>
+      <property name="RefreshRate" type="double" value="60.045948000000003"/>
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
       <property name="Primary" type="bool" value="true"/>
@@ -57,24 +65,28 @@
         <property name="Y" type="int" value="0"/>
       </property>
     </property>
-    <property name="HDMI-1" type="string" value="CSL 32&quot;">
+    <property name="HDMI-1" type="string" value="BBY 39&quot;">
       <property name="Active" type="bool" value="true"/>
-      <property name="EDID" type="string" value="7a041664f3b7ed9b796fb5e6ce8b4c61e532a0a0"/>
-      <property name="Resolution" type="string" value="1024x768"/>
-      <property name="RefreshRate" type="double" value="60.003840"/>
+      <property name="EDID" type="string" value="052a3bcf31c8b539ec89e4ba83e9500b79ec813a"/>
+      <property name="Resolution" type="string" value="1680x1050"/>
+      <property name="RefreshRate" type="double" value="59.954250000000002"/>
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
       <property name="Primary" type="bool" value="false"/>
       <property name="Position" type="empty">
         <property name="X" type="int" value="0"/>
         <property name="Y" type="int" value="0"/>
+      </property>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1"/>
+        <property name="Y" type="double" value="1"/>
       </property>
     </property>
     <property name="HDMI-A-0" type="string" value="VIZIO, Inc 24&quot;">
       <property name="Active" type="bool" value="true"/>
       <property name="EDID" type="string" value="833b7fcb702312c03428ad210584544e4b79bbd5"/>
       <property name="Resolution" type="string" value="1920x1080"/>
-      <property name="RefreshRate" type="double" value="60.000000"/>
+      <property name="RefreshRate" type="double" value="60"/>
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
       <property name="Primary" type="bool" value="false"/>
@@ -82,6 +94,11 @@
         <property name="X" type="int" value="0"/>
         <property name="Y" type="int" value="0"/>
       </property>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1"/>
+        <property name="Y" type="double" value="1"/>
+      </property>
     </property>
   </property>
+  <property name="Notify" type="int" value="1"/>
 </channel>

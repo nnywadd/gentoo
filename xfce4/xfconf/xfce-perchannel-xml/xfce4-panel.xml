@@ -30,9 +30,9 @@
       <property name="leave-opacity" type="uint" value="60"/>
       <property name="background-rgba" type="array">
         <value type="double" value="0.180392"/>
-        <value type="double" value="0.203922"/>
-        <value type="double" value="0.211765"/>
-        <value type="double" value="1.000000"/>
+        <value type="double" value="0.20392199999999999"/>
+        <value type="double" value="0.21176500000000001"/>
+        <value type="double" value="1"/>
       </property>
     </property>
   </property>
@@ -63,6 +63,52 @@
         <value type="string" value="thunar"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “fbi van 522” active: fbi van 522 (60%)"/>
+        <value type="string" value="wi-fi network connection “fbi van 522” active: fbi van 522 (62%)"/>
+        <value type="string" value="wi-fi network connection “fbi van 522” active: fbi van 522 (58%)"/>
+        <value type="string" value="wi-fi network connection “fbi van 522” active: fbi van 522 (67%)"/>
+        <value type="string" value="wi-fi network connection “fbi van 522” active: fbi van 522 (54%)"/>
+        <value type="string" value="wi-fi network connection “fbi van 522” active: fbi van 522 (59%)"/>
+        <value type="string" value="wi-fi network connection “fbi van 522” active: fbi van 522 (99%)"/>
+        <value type="string" value="wi-fi network connection “fbi van 522” active: fbi van 522 (98%)"/>
+        <value type="string" value="wi-fi network connection “fbi van 522” active: fbi van 522 (94%)"/>
+        <value type="string" value="wi-fi network connection “fbi van 522” active: fbi van 522 (96%)"/>
+        <value type="string" value="wi-fi network connection “fbi van 522” active: fbi van 522 (97%)"/>
+        <value type="string" value="wi-fi network connection “fbi van 522” active: fbi van 522 (90%)"/>
+        <value type="string" value="wi-fi network connection “fbi van 522” active: fbi van 522 (93%)"/>
+        <value type="string" value="ethernet network connection “auto ethernet” active"/>
+        <value type="string" value="wi-fi network connection “fbi van 522” active: fbi van 522 (71%)"/>
+        <value type="string" value="wi-fi network connection “fbi van 522” active: fbi van 522 (72%)"/>
+        <value type="string" value="wi-fi network connection “fbi van 522” active: fbi van 522 (74%)"/>
+        <value type="string" value="wi-fi network connection “fbi van 522” active: fbi van 522 (76%)"/>
+        <value type="string" value="wi-fi network connection “fbi van 522” active: fbi van 522 (73%)"/>
+        <value type="string" value="configuring wi-fi network connection “fbi van 522”…"/>
+        <value type="string" value="wi-fi network connection “fbi van 522” active: fbi van 522 (88%)"/>
+        <value type="string" value="wi-fi network connection “fbi van 522” active: fbi van 522 (89%)"/>
+        <value type="string" value="wi-fi network connection “fbi van 522” active: fbi van 522 (100%)"/>
+        <value type="string" value="ethernet network connection “ethernet connection 1” active"/>
+        <value type="string" value="wi-fi network connection “fbi van 522” active: fbi van 522 (87%)"/>
+        <value type="string" value="wi-fi network connection “fbi van 522” active: fbi van 522 (77%)"/>
+        <value type="string" value="wi-fi network connection “fbi van 522” active: fbi van 522 (78%)"/>
+        <value type="string" value="wi-fi network connection “fbi van 522” active: fbi van 522 (91%)"/>
+        <value type="string" value="wi-fi network connection “fbi van 522” active: fbi van 522 (84%)"/>
+        <value type="string" value="wi-fi network connection “fbi van 522” active: fbi van 522 (85%)"/>
+        <value type="string" value="wi-fi network connection “fbi van 522” active: fbi van 522 (86%)"/>
+        <value type="string" value="wi-fi network connection “fbi van 522” active: fbi van 522 (79%)"/>
+        <value type="string" value="wi-fi network connection “fbi van 522” active: fbi van 522 (81%)"/>
+        <value type="string" value="wi-fi network connection “fbi van 522” active: fbi van 522 (83%)"/>
+        <value type="string" value="wi-fi network connection “fbi van 522” active: fbi van 522 (92%)"/>
+        <value type="string" value="ethernet network connection “wired connection 1” active"/>
+        <value type="string" value="volumeicon"/>
+        <value type="string" value="teamviewer"/>
+        <value type="string" value="notifications"/>
+        <value type="string" value="teams"/>
+        <value type="string" value="blueman-tray"/>
+        <value type="string" value="bluetooth active &lt;b&gt;1 active connection&lt;/b&gt;"/>
+        <value type="string" value="bluetooth enabled"/>
+        <value type="string" value="gameguide"/>
+        <value type="string" value="vmware-tray"/>
+        <value type="string" value="discord"/>
         <value type="string" value="vlc"/>
         <value type="string" value="zoom"/>
         <value type="string" value="steam"/>
@@ -80,6 +126,9 @@
       <property name="digital-format" type="string" value="%I:%M %p"/>
       <property name="timezone" type="string" value="America/New_York"/>
       <property name="mode" type="uint" value="2"/>
+      <property name="digital-time-format" type="string" value="%I:%M %p"/>
+      <property name="digital-layout" type="uint" value="3"/>
+      <property name="digital-time-font" type="string" value="Terminus Bold 14"/>
     </property>
     <property name="plugin-13" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
@@ -111,7 +160,6 @@
     </property>
     <property name="plugin-2" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance10334;chromium.instance11299;chromium.instance120364;chromium.instance1520;chromium.instance1557;chromium.instance16253;chromium.instance1666;chromium.instance1693;chromium.instance1837;chromium.instance2016;chromium.instance208282;chromium.instance217447;chromium.instance220664;chromium.instance2350;chromium.instance245642;chromium.instance2740;chromium.instance2950;chromium.instance3382;chromium.instance46325;chromium.instance5918;chromium.instance659499;chromium.instance78191;chromium.instance96844;cmus;vlc"/>
     </property>
   </property>
 </channel>

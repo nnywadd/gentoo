@@ -39,3 +39,6 @@ bspc config pointer_action1 move
 
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
+bspc rule -a Origin.exe state=floating
+bspc rule -a OriginWebHelper state=floating
+bspc rule -a OriginClientSer state=floating
